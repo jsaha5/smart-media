@@ -1,25 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import MediaContainer from "./components/ui/MediaContainer";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <React.Fragment>
+      <h3>Welcome To Smart Media!</h3>
+      <MediaContainer width={250}>
+        <h3>This is Media Container</h3>
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout.{" "}
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+       
+      </MediaContainer>
+    </React.Fragment>
   );
 }
 

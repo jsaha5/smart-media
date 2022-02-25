@@ -1,0 +1,11 @@
+.tool-bar{
+    background-color: burlywood;
+    display: flex;
+    cursor: move;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.tool-bar-action {
+    cursor: pointer;
+}
