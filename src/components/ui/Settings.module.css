@@ -1,0 +1,18 @@
+.setting-container {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+}
+.settings-input-container{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.settings-input{
+    display: flex;
+    flex-direction: column;
+}
+.settings-input label,
+.settings-input input{
+    margin:2px;
+}

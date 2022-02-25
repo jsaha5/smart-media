@@ -7,7 +7,7 @@ function App() {
   return (
     <React.Fragment>
       <h3>Welcome To Smart Media!</h3>
-      <MediaContainer width={250}>
+      <MediaContainer>
         <h3>This is Media Container</h3>
         <p>
           It is a long established fact that a reader will be distracted by the

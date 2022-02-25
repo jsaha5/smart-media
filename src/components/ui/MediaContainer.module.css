@@ -1,3 +1,7 @@
 .media-container{
     border: 1px solid;
+    position: absolute;
+}
+.media-container-body {
+    padding: 10px
 }
