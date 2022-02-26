@@ -9,3 +9,6 @@
 .tool-bar-action {
     cursor: pointer;
 }
+.tool-bar-mousedown {
+    cursor: grab;
+}
